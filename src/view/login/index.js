@@ -8,13 +8,13 @@ function Login() {
 
     const [email, setEmail] = useState(''); 
     const [password, setPassword] = useState(''); 
-    const [msgType, setmsgType] = useState(''); 
+    const [msgType, setMsgType] = useState(''); 
 
     function logar() {
         firebase.auth().signInWithEmailAndPassword(email, password).then(result => {
-            setmsgType('sucesso');
+            setMsgType('sucesso');
         }).catch(error => {
-            setmsgType('erro');
+            setMsgType('erro');
         });
         
     }
