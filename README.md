@@ -47,6 +47,8 @@ Instalação: Caso a dependência do Firebase aconteça algum erro, favor seguir
     2 - npm cache clear (Limpei o cache)
     3 - npm i firebase@^4.8.0 --save (instalei a versão anterior)   
 
+3. Dependência do Router DOM na versão 5.0.0
+
 <!-- LICENSE -->
 
 ## Licença

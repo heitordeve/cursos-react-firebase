@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import firebase from '../../config/firebase';
 import './index.css';
 
-//import firebase from '../../config/firebase';
-//import 'firebase/auth';
-
 function NewRegister() {
 
     const [email, setEmail] = useState('');
